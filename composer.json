@@ -1,0 +1,22 @@
+{
+    "name": "hz/php-api-service",
+    "description": "Helper for connect to API Service",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hz\\PhpApiService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hussein Zaher",
+            "email": "husseinzaher@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
